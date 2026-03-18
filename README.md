@@ -1,31 +1,41 @@
-# 📊 Amazon Sales Data Analysis
+# 🛒 Amazon Sales Analysis
 
-Welcome to the **Amazon Sales Data Analysis Project**! 🚀
+## 📌 Project Overview
 
-This project explores Amazon sales data to discover valuable insights about **product performance, revenue trends, and customer ratings** using Python data analysis tools.
-
-The goal of this project is to demonstrate **data cleaning, exploratory data analysis (EDA), and data visualization** skills that are important for a **Data Analyst role**.
-
----
-
-# 📁 Dataset
-
-The dataset used in this project contains information about Amazon products including:
-
-• Product Name
-• Category
-• Price
-• Rating
-• Number of Reviews
-• Revenue / Sales Data
-
-This dataset is used to analyze **sales patterns and product performance**.
+This project analyzes Amazon sales data to extract meaningful insights using Python.
+It focuses on understanding **sales trends, product performance, and customer distribution** through data analysis and visualization.
 
 ---
 
-# 🛠️ Technologies Used
+## 🎯 Objectives
 
-This project uses the following Python libraries:
+* Perform data cleaning and preprocessing
+* Analyze sales and profit trends
+* Identify top-performing categories and regions
+* Visualize patterns using charts
+
+---
+
+## 📁 Dataset Information
+
+The dataset includes:
+
+* Order Date
+* Sales
+* Profit
+* Quantity
+* Category
+* Region
+
+⚠️ Note:
+You must provide the correct CSV file path in the code, otherwise it will show an error.
+
+Example:
+df = pd.read_csv("your_file_path.csv")
+
+---
+
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
@@ -36,74 +46,89 @@ This project uses the following Python libraries:
 
 ---
 
-# 🔍 Project Workflow
+## 📊 Analysis Performed
 
-The analysis follows these steps:
+### 📈 Sales Over Time
 
-1. Import Libraries
-2. Load Dataset
-3. Data Cleaning
-4. Exploratory Data Analysis (EDA)
-5. Data Visualization
-6. Extract Business Insights
+* Line chart showing revenue trends
 
----
+### 📊 Distribution Analysis
 
-# 📈 Data Analysis & Visualizations
+* Histogram for sales/price distribution
 
-The project includes several visualizations to understand the data better.
+### 🔥 Correlation Heatmap
 
-Examples of analysis performed:
+* Shows relationships between variables
 
-• Distribution of product ratings
-• Relationship between rating and revenue
-• Correlation between different features
-• Revenue trends across products
+### 📦 Category-wise Analysis
 
-Charts used in this project:
-
-* Scatter Plot
-* Bar Chart
-* Heatmap
-* Line Chart
+* Performance comparison of categories
 
 ---
 
-# 📊 Sample Visualization
+## 📈 Key Insights
 
-Example visualization from the analysis:
-
-Heatmap showing correlation between variables such as **price, rating, and revenue**.
-
----
-
-# 💡 Key Insights
-
-Some important insights discovered from the analysis:
-
-• Products with higher ratings tend to generate higher revenue.
-• Certain categories dominate the overall sales performance.
-• Customer ratings strongly influence product sales.
-
-These insights can help businesses **improve product strategy and marketing decisions**.
+* Sales fluctuate over time with peak periods
+* High sales do not always mean high profit
+* Some categories consistently perform better
+* Correlation exists between important variables
 
 ---
 
-# 🚀 Future Improvements
+## 💡 Features
 
-Possible improvements for this project:
-
-• Add machine learning model to predict product sales
-• Build an interactive dashboard using Plotly or Power BI
-• Perform deeper category-based analysis
+* End-to-end data analysis
+* Clean and readable code
+* Multiple visualizations
+* Real-world dataset
 
 ---
 
-# 👩‍💻 Author
+## ▶️ How to Run
+
+1. Clone the repository
+   git clone https://github.com/parmarriya195-dotcom/amazon-sales-analysis.git
+
+2. Open folder
+   cd amazon-sales-analysis
+
+3. Run Jupyter Notebook
+   jupyter notebook
+
+4. Open file
+   notebooks/amazon_sales_analysis.ipynb
+
+---
+
+## 📂 Project Structure
+
+amazon-sales-analysis/
+│
+├── notebooks/
+│   └── amazon_sales_analysis.ipynb
+│
+├── data/
+│   └── dataset.csv
+│
+└── README.md
+
+---
+
+## 🎯 Learning Outcomes
+
+* Practical data analysis skills
+* Data visualization techniques
+* Real-world dataset handling
+* Insight generation
+
+---
+
+## 📎 Conclusion
+
+This project demonstrates how Python can be used to analyze and visualize sales data effectively, helping in better business decision-making.
+
+---
+
+## 👩‍💻 Author
 
 **Riya Parmar**
-
-Aspiring Data Analyst passionate about **data analysis, visualization, and Python programming**.
-
-GitHub:
-https://github.com/parmarriya195-dotcom
