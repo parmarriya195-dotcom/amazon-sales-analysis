@@ -1,134 +1,55 @@
 # 🛒 Amazon Sales Analysis
 
 ## 📌 Project Overview
-
-This project analyzes Amazon sales data to extract meaningful insights using Python.
-It focuses on understanding **sales trends, product performance, and customer distribution** through data analysis and visualization.
-
----
-
-## 🎯 Objectives
-
-* Perform data cleaning and preprocessing
-* Analyze sales and profit trends
-* Identify top-performing categories and regions
-* Visualize patterns using charts
+Analyzed Amazon sales data using Python to uncover revenue trends,
+product performance patterns, and regional insights — translating 
+raw data into clear, actionable business decisions.
 
 ---
 
-## 📁 Dataset Information
-
-The dataset includes:
-
-* Order Date
-* Sales
-* Profit
-* Quantity
-* Category
-* Region
-
-⚠️ Note:
-You must provide the correct CSV file path in the code, otherwise it will show an error.
-
-Example:
-df = pd.read_csv("your_file_path.csv")
+## 🎯 Business Questions Answered
+→ Which product categories generate the highest revenue?
+→ How do sales trends shift across different time periods?
+→ Where is the gap between high sales and low profit?
+→ Which regions drive the most consistent performance?
 
 ---
 
-## 🛠️ Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+## 📊 Key Insights Discovered
+✅ Technology category drives 35%+ of total revenue
+✅ Q4 consistently shows peak sales across all categories  
+✅ High sales volume does NOT guarantee high profit margins
+✅ Strong positive correlation between quantity and revenue
 
 ---
 
-## 📊 Analysis Performed
-
-### 📈 Sales Over Time
-
-* Line chart showing revenue trends
-
-### 📊 Distribution Analysis
-
-* Histogram for sales/price distribution
-
-### 🔥 Correlation Heatmap
-
-* Shows relationships between variables
-
-### 📦 Category-wise Analysis
-
-* Performance comparison of categories
+## 🛠️ Tools & Technologies
+| Tool | Purpose |
+|------|---------|
+| Python | Core analysis language |
+| Pandas | Data cleaning & processing |
+| NumPy | Numerical computations |
+| Matplotlib | Chart creation |
+| Seaborn | Advanced visualizations |
+| Jupyter Notebook | Interactive analysis environment |
 
 ---
 
-## 📈 Key Insights
-
-* Sales fluctuate over time with peak periods
-* High sales do not always mean high profit
-* Some categories consistently perform better
-* Correlation exists between important variables
-
----
-
-## 💡 Features
-
-* End-to-end data analysis
-* Clean and readable code
-* Multiple visualizations
-* Real-world dataset
+## 📁 Dataset
+- Source: Amazon Sales Dataset (CSV)
+- Key fields: Order Date, Sales, Profit, Quantity, Category, Region
 
 ---
 
 ## ▶️ How to Run
-
-1. Clone the repository
+1. Clone the repo
    git clone https://github.com/parmarriya195-dotcom/amazon-sales-analysis.git
-
-2. Open folder
-   cd amazon-sales-analysis
-
-3. Run Jupyter Notebook
-   jupyter notebook
-
-4. Open file
-   notebooks/amazon_sales_analysis.ipynb
-
----
-
-## 📂 Project Structure
-
-amazon-sales-analysis/
-│
-├── notebooks/
-│   └── amazon_sales_analysis.ipynb
-│
-├── data/
-│   └── dataset.csv
-│
-└── README.md
-
----
-
-## 🎯 Learning Outcomes
-
-* Practical data analysis skills
-* Data visualization techniques
-* Real-world dataset handling
-* Insight generation
-
----
-
-## 📎 Conclusion
-
-This project demonstrates how Python can be used to analyze and visualize sales data effectively, helping in better business decision-making.
+2. Install dependencies
+   pip install -r requirements.txt
+3. Open Jupyter Notebook
+   jupyter notebook notebooks/amazon_sales_analysis.ipynb
 
 ---
 
 ## 👩‍💻 Author
-
-**Riya Parmar**
+**Riya Parmar** — Data Analyst Student
