@@ -52,4 +52,13 @@ raw data into clear, actionable business decisions.
 ---
 
 ## 👩‍💻 Author
-**Riya Parmar** — Data Analyst Student
+
+**Riya Parmar**
+
+GitHub:  
+https://github.com/riyaa-parmar
+
+---
+
+⭐ If you find these projects useful, consider **starring the repository**!
+
